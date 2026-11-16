@@ -1,9 +1,9 @@
 cask "geetree" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.6.1"
-  sha256 arm:   "b053c2470f9f4767971c43b23be55971d96c1ed33ccf22daa11e4259948a8321",
-         intel: "2bd45dfbbe3d3e132f3ade4f41f2f65defd137a0454c7781b6ac12c0e97f26a7"
+  version "0.6.2"
+  sha256 arm:   "624ff67c5b77953890fa205365f5e69177c2d921af50f43598466f3cf8a3ee6b",
+         intel: "13c8f5a56325437090df348d7a5ceab31e2e6978680252dfb558f7c109026bd5"
 
   url "https://github.com/cmzy/geetree/releases/download/v#{version}/GeeTree_#{arch}.dmg",
       verified: "github.com/cmzy/geetree/"
