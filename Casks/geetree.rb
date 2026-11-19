@@ -5,8 +5,7 @@ cask "geetree" do
   sha256 arm:   "624ff67c5b77953890fa205365f5e69177c2d921af50f43598466f3cf8a3ee6b",
          intel: "13c8f5a56325437090df348d7a5ceab31e2e6978680252dfb558f7c109026bd5"
 
-  url "https://github.com/cmzy/geetree/releases/download/v#{version}/GeeTree_#{arch}.dmg",
-      verified: "github.com/cmzy/geetree/"
+  url "https://github.com/cmzy/geetree/releases/download/v#{version}/GeeTree_#{arch}.dmg"
   name "GeeTree"
   desc "Pure-GPU-rendered, professional Git client"
   homepage "https://geetree.app/"
