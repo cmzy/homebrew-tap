@@ -1,9 +1,9 @@
 cask "geecompare" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "80e4b0ef9e312fffda762a6c194f4751acbe16c3f3cef9ddbe4a335483f22a8e",
-         intel: "3545066943199f871e07d4335ec3f8d853a1b9b25d5bf86ebf2f60fc4364ff43"
+  version "0.1.2"
+  sha256 arm:   "01c5b092de27243ae93adf4991303d20c5221f0fd612735ad46fac7d5a4e6629",
+         intel: "b4755ec31fb866c115252de675ccee7eb8dc374b4e56398eebed46b8f815a107"
 
   url "https://github.com/cmzy/geecompare/releases/download/v#{version}/GeeCompare_#{arch}.dmg",
       verified: "github.com/cmzy/geecompare/"
